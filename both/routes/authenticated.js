@@ -15,3 +15,31 @@ authenticatedRoutes.route( '/dashboard', {
     BlazeLayout.render( 'default', { yield: 'dashboard' } );
   }
 });
+
+authenticatedRoutes.route( '/chatDetail', {
+  name: 'chatDetail',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'chatDetail' } );
+  }
+});
+
+authenticatedRoutes.route( '/bookmarks', {
+  name: 'bookmarks',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'bookmarks' } );
+  }
+});
+
+authenticatedRoutes.route( '/chatList', {
+  name: 'chatList',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'chatList' } );
+  }
+});
+
+authenticatedRoutes.route( '/businessDetail', {
+  name: 'businessDetail',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'businessDetail' } );
+  }
+});
