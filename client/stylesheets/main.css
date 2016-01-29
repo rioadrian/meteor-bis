@@ -73,17 +73,22 @@
   text-decoration: none;
 }
 .biz-chats .media .media-left {
-  padding-right: 8px;
+  padding-right: 4px;
 }
 .biz-chats .media .media-object {
   margin: 8px;
   border-radius: 4px;
-  width: 72px;
+  width: 54px;
+}
+.biz-chats .media .media-body {
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .biz-chats .media .media-heading {
   margin-top: 5px;
 }
-.biz-chats .media .media-body p {
+.biz-chats .media .media-body p,
+.biz-chats .media .media-body .btn {
   margin-bottom: 5px;
 }
 .biz-chats .media .media-body .time {
