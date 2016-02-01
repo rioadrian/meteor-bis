@@ -14,7 +14,7 @@
   /* height: 88px; */
   overflow: hidden;
 }
-.biz-card .ext {
+.biz-card .post {
   position: relative;
   height: 40px;
 }
@@ -49,12 +49,22 @@
 .biz-card .stats p {
   margin-bottom: 0;
   padding: 5px 10px;
-  font-weight: 600;
   color: #757575;
   background-color: #FFFFFF;
 }
+.biz-card .stats b {
+  color: #333333;
+}
 .biz-card .stats .icon {
   margin-right: 2px;
+}
+.biz-card .post-inverse .photo {
+  right: 8px;
+  left: inherit;
+}
+.biz-card .post-inverse .stats {
+  float: left;
+  margin-left: 14px;
 }
 .biz-card .intro {
   padding-right: 12px;
@@ -64,9 +74,12 @@
 .biz-actions {
   margin-bottom: 20px;
 }
+.biz-actions .btn {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 .biz-actions .btn .icon {
   font-size: 18px;
-  color: #424242;
 }
 
 .biz-chats {
