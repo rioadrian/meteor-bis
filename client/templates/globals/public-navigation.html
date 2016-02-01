@@ -2,5 +2,15 @@
   <ul class="nav navbar-nav navbar-right">
     <li class="{{currentRoute 'login'}}"><a href="{{pathFor 'login'}}">Login</a></li>
     <li class="{{currentRoute 'signup'}}"><a href="{{pathFor 'signup'}}">Sign Up</a></li>
+    <li class="search-container">
+        <form class="form-inline">
+            <div class="form-group">
+                <input type="email" class="form-control" id="" placeholder="Search Business">
+            </div>
+            <button type="submit" class="btn btn-default">
+                <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+        </form>
+    </li>
   </ul>
 </template>
