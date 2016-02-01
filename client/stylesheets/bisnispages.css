@@ -1,2 +1,72 @@
 /* typography */
 .text-thin{font-weight: 300}
+
+/* --- media queries --- */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .search-container{
+        background: red; 
+        width: 400px; 
+        margin: 8px auto;
+    }
+
+    .search-container input{
+        width: 80% !important;
+    }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    
+}
+
+/* footer nav */
+.navbar-custom{
+    min-height: 40px;
+    padding: 0px;
+}
+
+.navbar-custom a{
+    color: #777;
+    
+}
+
+.navbar-custom a:focus{
+    color:#002154;
+}
+
+.navbar-custom a i{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    position: relative;
+}
+
+.badge-custom{
+/*    padding: 5px!important;*/
+    font-size: 11px;
+    font-weight: normal;
+    background-color: orangered;
+/*    border-radius: 50%;*/
+    min-width: 20px;
+    height: 20px;
+    line-height: 12px;
+    position: absolute !important;
+    top: 0px !important;
+    left: 12px;
+}
