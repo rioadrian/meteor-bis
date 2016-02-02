@@ -1,21 +1,29 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+</head>
 <template name="signup">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4 class="page-header">Sign Up</h4>
-      <form id="signup" class="signup">
-        <div class="form-group">
-          <label for="emailAddress">Email Address</label>
-          <input type="email" name="emailAddress" class="form-control" placeholder="Email Address">
+    <main class="bs-docs-masthead" role="main" style="height: 100%; width: 100%">
+        <div class="container">
+            <span class="bs-docs-booticon bs-docs-booticon-lg bs-docs-booticon-outline">BP</span>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4" style="padding-bottom: 40px;">
+                  <h3 class="page-header text-thin">Sign Up</h3>
+                  <form id="signup" class="signup signup-custom">
+                    <div class="form-group">
+<!--                      <label for="emailAddress" class="text-thin">Email Address</label>-->
+                      <input type="email" name="emailAddress" class="form-control form-control-custom" placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+<!--                      <label for="password" class="text-thin">Password</label>-->
+                      <input type="password" name="password" class="form-control form-control-custom" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-success" value="Sign Up">
+                    </div>
+                  </form>
+                  <p>Already have an account? <a href="{{pathFor 'login'}}">Log In</a></p>
+                </div>
+              </div>
         </div>
-        <div class="form-group">
-          <label for="password">Password</label>
-          <input type="password" name="password" class="form-control" placeholder="Password">
-        </div>
-        <div class="form-group">
-          <input type="submit" class="btn btn-success" value="Sign Up">
-        </div>
-      </form>
-      <p>Already have an account? <a href="{{pathFor 'login'}}">Log In</a>.</p>
-    </div>
-  </div>
+    </main>
 </template>
