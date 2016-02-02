@@ -16,6 +16,13 @@ authenticatedRoutes.route( '/dashboard', {
   }
 });
 
+authenticatedRoutes.route( '/dashboardEdit', {
+  name: 'dashboardEdit',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'dashboardEdit' } );
+  }
+});
+
 authenticatedRoutes.route( '/chatDetail', {
   name: 'chatDetail',
   action() {
