@@ -2,6 +2,15 @@ let startup = () => {
   _setEnvironmentVariables();
   _setBrowserPolicies();
   _generateAccounts();
+
+  var trusted = [
+    '*.cloudinary.com'
+  ];
+
+  _.each(trusted, function(origin) {
+    origin = "https://" + origin;
+    BrowserPolicy.content.allowOriginForAll(origin);
+  });
 };
 
 var _setEnvironmentVariables = () => Modules.server.setEnvironmentVariables();
