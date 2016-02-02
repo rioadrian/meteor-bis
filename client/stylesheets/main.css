@@ -199,7 +199,7 @@
   z-index: 500;
   opacity: 0;
   visibility: hidden;
-  overflow: hidden;
+  overflow: auto;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
@@ -296,7 +296,7 @@
   top: 0;
   right: 0;
   padding: 0.5em 1em;
-  color: #31373a;
+  color: #59656c;
   background-color: #FFF;
   width: 80px;
   height: 60px;
