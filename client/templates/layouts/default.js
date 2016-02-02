@@ -23,7 +23,6 @@ Template.default.helpers({
 	},
 	redirectPublic() {
 		return handleRedirect([
-			'index',
 			'dashboard'
 		], '/login' );
 	}
