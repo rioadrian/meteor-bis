@@ -37,3 +37,4 @@ tracker
 fortawesome:fontawesome
 mrt:jquery-masonry
 mrt:jquery-imagesloaded
+meteoric:ionicons-sass
