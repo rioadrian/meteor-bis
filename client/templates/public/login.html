@@ -14,10 +14,12 @@
 <!--                      <label for="password"><span class="pull-left">Password</span> <a class="pull-right" href="{{pathFor 'recover-password'}}">Forgot Password?</a></label>-->
                       <input type="password" name="password" class="form-control form-control-custom" placeholder="Password">
                     </div>
-                    <div class="form-group">
-                      <input type="submit" class="btn btn-success" value="Login">
+                    <div class="form-group col-xs-10 col-xs-offset-1">
+                      <input type="submit" class="btn btn-success btn-block" value="Login">
                     </div>
                   </form>
+                    <div class="clearfix"></div>
+                    <p>Or, <a href="{{pathFor 'signup'}}">Create an Account</a></p>
                 </div>
               </div>
         </div>
