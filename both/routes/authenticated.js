@@ -120,3 +120,17 @@ authenticatedRoutes.route( '/businessDetail', {
     BlazeLayout.render( 'default', { yield: 'businessDetail' } );
   }
 });
+
+authenticatedRoutes.route( '/changePhoto', {
+  name: 'changePhoto',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'changePhoto' } );
+  }
+});
+
+authenticatedRoutes.route( '/changeCover', {
+  name: 'changeCover',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'changeCover' } );
+  }
+});
