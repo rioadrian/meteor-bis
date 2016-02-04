@@ -1,0 +1,63 @@
+<template name="addBusiness">
+    <div class="container">
+        <section>
+            <form id="theForm" class="simform" autocomplete="off">
+                <div class="simform-inner">
+                    <ol class="questions">
+                        <li>
+                            <span><label for="q1">Nama Bisnis Anda</label></span>
+                            <input id="q1" name="q1" type="text"/>
+                        </li>
+                        <li>
+                            <span><label for="q2">Keterangan Bisnis</label></span>
+                            <input id="q2" name="q2" type="text"/>
+                        </li>
+                        <li>
+                            <span><label for="q3">Logo Bisnis</label></span>
+                            <input id="q3" name="q3" type="text"/>
+                        </li>
+                        <li>
+                            <span><label for="q4">Background Bisnis</label></span>
+                            <input id="q4" name="q4" type="text"/>
+                        </li>
+                    </ol><!-- /questions -->
+                    <button class="submit" type="submit">Send answers</button>
+                    <div class="controls">
+                        <button class="ionicons next"></button>
+                        <div class="progress"></div>
+                        <span class="number">
+                            <span class="number-current"></span>
+                            <span class="number-total"></span>
+                        </span>
+                        <span class="error-message"></span>
+                    </div><!-- / controls -->
+                </div><!-- /simform-inner -->
+                <span class="final-message"></span>
+            </form><!-- /simform -->			
+        </section>
+        
+        <div class="biz-card" style="display: none;">
+            <a href="/businessDetail" class="item">
+                <div class="cover">
+                    <img src="/images/cloudinary/Covers/Catering.jpg" alt="Catering" class="img-responsive">
+                </div>
+                <div class="post">
+                    <div class="photo">
+                        <img src="/images/cloudinary/Logos/Catering.jpg" alt="Catering" class="img-responsive">
+                    </div>
+                    <div class="stats">
+                        <ul class="list-inline">
+                            <li><p><span class="fa fa-eye icon"></span> <b>124</b></p></li>
+                            <li><p><span class="fa fa-user icon"></span> <b>56</b></p></li>
+                            <li><p><span class="fa fa-star icon"></span> <b>17</b></p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="intro">
+                    <h4>Jakarta Catering</h4>
+                    <p>Jakarta Catering Service. Besar atau kecil, sederhana atau mewah. Berpengalaman di catering profesional sejak Tahun 2000.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</template>
