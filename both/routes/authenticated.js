@@ -37,6 +37,48 @@ authenticatedRoutes.route( '/createProduct', {
   }
 });
 
+authenticatedRoutes.route( '/changePassword', {
+  name: 'changePassword',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'changePassword' } );
+  }
+});
+
+authenticatedRoutes.route( '/accountVerify', {
+  name: 'accountVerify',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'accountVerify' } );
+  }
+});
+
+authenticatedRoutes.route( '/accountDeactivate', {
+  name: 'accountDeactivate',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'accountDeactivate' } );
+  }
+});
+
+authenticatedRoutes.route( '/reportProblem', {
+  name: 'reportProblem',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'reportProblem' } );
+  }
+});
+
+authenticatedRoutes.route( '/termsConditions', {
+  name: 'termsConditions',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'termsConditions' } );
+  }
+});
+
+authenticatedRoutes.route( '/privacyPolicy', {
+  name: 'privacyPolicy',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'privacyPolicy' } );
+  }
+});
+
 authenticatedRoutes.route( '/newDashboard', {
   name: 'newDashboard',
   action() {
