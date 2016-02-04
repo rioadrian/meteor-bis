@@ -16,6 +16,34 @@ authenticatedRoutes.route( '/dashboard', {
   }
 });
 
+authenticatedRoutes.route( '/addBusiness', {
+  name: 'addBusiness',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'addBusiness' } );
+  }
+});
+
+authenticatedRoutes.route( '/createBusiness', {
+  name: 'createBusiness',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'createBusiness' } );
+  }
+});
+
+authenticatedRoutes.route( '/createProduct', {
+  name: 'createProduct',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'createProduct' } );
+  }
+});
+
+authenticatedRoutes.route( '/newDashboard', {
+  name: 'newDashboard',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'newDashboard' } );
+  }
+});
+
 authenticatedRoutes.route( '/dashboardEdit', {
   name: 'dashboardEdit',
   action() {
