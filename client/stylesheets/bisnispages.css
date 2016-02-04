@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 .biz-card .cover {
-  background-color: #F8F8F8;
+  background-color: #F5F5F5;
   /* height: 88px; */
   overflow: hidden;
 }
@@ -31,10 +31,12 @@
   position: absolute;
   top: -40px;
   left: 8px;
+  overflow: hidden;
 }
 .biz-card .photo > img {
   width: 72px;
-  border-radius: 4px;
+	height: 72px;
+  border-radius: 2px;
 }
 .biz-card .stats {
   margin: 4px 10px;
