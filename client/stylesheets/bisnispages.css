@@ -80,6 +80,19 @@
   padding-right: 12px;
   padding-left: 12px;
 }
+.biz-card .auto-size {
+  resize: none !important;
+}
+.biz-card .form-group {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.biz-card .form-control {
+  border-color: #E7E7E7;
+  border-radius: 6px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
 
 .biz-actions {
   margin-bottom: 20px;
@@ -352,6 +365,9 @@
   right: 10px;
   content: "\e604";
 }
+.grid-gallery .grid .leaf {
+  margin: 2px;
+}
 
 /* Example media queries (reduce number of columns and change slideshow layout) */
 @media screen and (max-width: 60em) {
@@ -391,6 +407,17 @@
   }
 }
 
+.leaf {
+  padding: 8px 12px;
+  border-left: 1px solid rgba(231, 231, 231, 0.8);
+  border-bottom: 1px solid rgba(231, 231, 231, 0.8);
+  border-bottom-left-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #1E88E5;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 
 /* typography */
@@ -764,11 +791,11 @@ a.text-white{
 }
 
 .text-of-icon{
-    color: #929292; 
-    font-size: 9px; 
-    text-align: center; 
-    padding: 0px; 
-    margin: 0; 
+    color: #929292;
+    font-size: 9px;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
     line-height: 5px;
     font-family: helvetica;
 }
