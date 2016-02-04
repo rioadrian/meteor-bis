@@ -1,3 +1,4 @@
 Template.dashboardEdit.onRendered( () => {
-  new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+  autosize(document.querySelectorAll('.auto-size'));
+  new CBPGridGallery(document.getElementById('grid-gallery'));
 });
