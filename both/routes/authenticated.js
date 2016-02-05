@@ -79,6 +79,20 @@ authenticatedRoutes.route( '/privacyPolicy', {
   }
 });
 
+authenticatedRoutes.route( '/dashboardEmpty', {
+  name: 'dashboardEmpty',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'dashboardEmpty' } );
+  }
+});
+
+authenticatedRoutes.route( '/dashboardEditEmpty', {
+  name: 'dashboardEditEmpty',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'dashboardEditEmpty' } );
+  }
+});
+
 authenticatedRoutes.route( '/newDashboard', {
   name: 'newDashboard',
   action() {

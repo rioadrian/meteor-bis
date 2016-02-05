@@ -51,7 +51,7 @@
   padding-right: 0;
   padding-left: 0;
 /*  border: 1px solid #E7E7E7;*/
-  border: 1px solid #E7E7E7;
+/*  border: 1px solid #E7E7E7;*/
   overflow: hidden;
 }
 .biz-card .stats ul > li:first-child {
@@ -840,6 +840,12 @@ a.text-white{
     font-size: 28px;
 }
 
+.bp-icon{
+    background: url(images/bp_icon.png) no-repeat;
+    height: 28px;
+    width: 28px;
+}
+
 .cog-icon:before{
     content: "\f411";
     color: #929292;
@@ -1231,4 +1237,13 @@ input[type=text]::-ms-clear {
     padding: 10px 15px;
     border-bottom: 1px solid #E0E0E0;
     background-color: #FFF;
+}
+
+.empty-state-icon{
+    font-size: 80px;
+    color:#ddd;
+}
+
+.gap-button{
+    padding-bottom: 80px;
 }
