@@ -1297,3 +1297,11 @@ input[type=text]::-ms-clear {
 .gap-button{
     padding-bottom: 80px;
 }
+
+.navbar-brand-custom{
+    padding: 2px 0;
+}
+
+.less-margin-top{
+    margin-top: 0;
+}
