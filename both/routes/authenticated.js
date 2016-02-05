@@ -93,6 +93,13 @@ authenticatedRoutes.route( '/dashboardEmpty', {
   }
 });
 
+authenticatedRoutes.route( '/searchEmpty', {
+  name: 'searchEmpty',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'searchEmpty' } );
+  }
+});
+
 authenticatedRoutes.route( '/dashboardEditEmpty', {
   name: 'dashboardEditEmpty',
   action() {
