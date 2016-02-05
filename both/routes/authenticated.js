@@ -37,6 +37,13 @@ authenticatedRoutes.route( '/createProduct', {
   }
 });
 
+authenticatedRoutes.route( '/editProduct', {
+  name: 'editProduct',
+  action() {
+    BlazeLayout.render( 'default', { yield: 'editProduct' } );
+  }
+});
+
 authenticatedRoutes.route( '/changePassword', {
   name: 'changePassword',
   action() {
