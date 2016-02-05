@@ -854,7 +854,7 @@ a.text-white{
 .navbar-custom a i{
     font-size: 24px;
     font-weight: 400;
-    line-height: 40px;
+/*    line-height: 40px;*/
     position: relative;
 }
 
@@ -892,8 +892,8 @@ a.text-white{
 
 .bp-icon{
     background: url(images/bp_icon.png) no-repeat;
-    height: 28px;
-    width: 28px;
+    height: 24px;
+    width: 24px;
 }
 
 .cog-icon:before{

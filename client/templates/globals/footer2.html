@@ -12,9 +12,17 @@
 					<a href="{{pathFor 'chatList'}}" class="btn" role="button">
 						<i class="ionicons chat-icon"><span class="badge badge-custom">42</span></i>
 					</a>
-					<a href="{{pathFor 'dashboard'}}" class="btn" role="button">
-						<i class="ionicons cog-icon"><span class="badge badge-custom">4</span></i>
-					</a>
+					<div class="btn-group dropup">
+						<a role="button" type="button" class="btn dropdown-toggle button-custom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <i class="ionicons bp-icon">
+							  <span class="badge badge-custom">4</span>
+						  </i>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="{{pathFor 'dashboard'}}">Dashboard</a></li>
+							<li><a class="logout">Logout</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
