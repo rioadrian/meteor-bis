@@ -1299,7 +1299,7 @@ input[type=text]::-ms-clear {
 }
 
 .navbar-brand-custom{
-    padding: 2px 0;
+    padding: 4px 10px 4px 0;
 }
 
 .less-margin-top{
