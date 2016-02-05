@@ -787,6 +787,16 @@ a.text-white{
 }
 
 /* footer nav */
+.footer {
+  height: 54px;
+  overflow: hidden;
+}
+.footer .button-custom {
+  background-color: white;
+}
+.footer .dropdown-menu {
+  right: 0;
+}
 .navbar-custom{
     min-height: 40px;
     padding: 0px;
