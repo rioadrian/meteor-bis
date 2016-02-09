@@ -479,6 +479,9 @@
   .grid-gallery .slideshow figcaption h3 {
     font-size: 160%;
   }
+  .grid-gallery .slideshow figcaption p {
+    color: #BDBDBD;
+  }
   .grid-gallery .slideshow nav {
     position: fixed;
     bottom: 0;
