@@ -3,6 +3,8 @@ let startup = () => {
   _setBrowserPolicies();
   _generateAccounts();
 
+  BrowserPolicy.content.allowOriginForAll('blob:');
+
   var trusted = [
     '*.cloudinary.com'
   ];

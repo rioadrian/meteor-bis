@@ -1,12 +1,34 @@
 <template name="footer">
-    <div class="visible-xs-block">
-        <div class="navbar navbar-default navbar-fixed-bottom navbar-custom">
-            <div class="btn-group btn-group-justified" role="group">
-                <a href="#" class="btn" role="button"><i class="glyphicon glyphicon-search"></i></a>
-                <a href="#" class="btn" role="button"><i class="glyphicon glyphicon-star"><span class="badge badge-custom">4</span></i></a>
-                <a href="#" class="btn" role="button"><i class="fa fa-comment"><span class="badge badge-custom">12</span></i></a>
-                <a href="#" class="btn" role="button"><i class="glyphicon glyphicon-cog"><span class="badge badge-custom">490</span></i></a>
-            </div>
-        </div>
-    </div>
+	<div class="footer">
+		<div class="visible-xs-block">
+			<div class="navbar navbar-default navbar-fixed-bottom navbar-custom">
+				<div class="btn-group btn-group-justified" role="group">
+					<a href="{{pathFor 'index'}}" class="btn" role="button">
+						<i class="ionicons search-icon"></i>
+						<p class="text-of-icon">Search</p>
+					</a>
+					<a href="{{pathFor 'bookmarks'}}" class="btn" role="button">
+						<i class="ionicons star-icon"><span class="badge badge-custom">4</span></i>
+						<p class="text-of-icon">Bookmarks</p>
+					</a>
+					<a href="{{pathFor 'chatList'}}" class="btn" role="button">
+						<i class="ionicons chat-icon"><span class="badge badge-custom">4</span></i>
+						<p class="text-of-icon">Chat</p>
+					</a>
+					<div class="btn-group dropup">
+						<a role="button" type="button" class="btn dropdown-toggle button-custom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						  <i class="ionicons bp-icon">
+							  <span class="badge badge-custom">4</span>
+						  </i>
+							<p class="text-of-icon">Settings</p>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="{{pathFor 'dashboard'}}">Dashboard</a></li>
+							<li><a class="logout">Logout</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>

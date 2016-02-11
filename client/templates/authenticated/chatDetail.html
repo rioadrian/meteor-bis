@@ -1,81 +1,93 @@
 <template name="chatDetail">
-    <nav class="gap-operate">
-        <div class="operate operate-fixed operate-fixed-down">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-2">
-                        <a class="left" onclick="window.history.back()">
-                            <i class="fa fa-angle-left" style="line-height: 40px; font-size: 24px"></i>
-                        </a>
-                    </div>
-                    <div class="col-xs-8">
-                        <h4 class="title text-center">Chat Group</h4>
-                    </div>
-                    <div class="col-xs-2">
-                        <a href="chat_new.html" class="right">
-                            <div class="icon icon-md ion-ios-plus-empty"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <main>
-        <div class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="">
-                        <div class="group-chat-bubbles">
-                            <ul class="list-unstyled">
-                                <li><div class="chat-bubble title"><p>Selasa, 13 September</p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Hai Team <span>18:00</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Besok kita meeting jam 10 <span>18:02</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Jangan sampai telat ya <span>18:02</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Tri Dewi Putri Lestari</p><p>Baik Mas Rizky <span>18:04</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Michelle Anestasya Lopita</p><p>Oke Rizky <span>18:07</span></p></div></li>
-                                <li><div class="chat-bubble right"><p>Oke Mas Rizky <span>19:00</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Utari Purwanti</p><p>Oke Rizky <span>19:07</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Canidya Alifiana</p><p>Oke Mas Rizky <span>19:08</span></p></div></li>
-                                <li><div class="chat-bubble title"><p>Rabu</p></div></li>
-                                <li><div class="chat-bubble right"><p>Jangan lupa nanti meeting jam 10 Team <span>08:00</span></p></div></li>
-                                <li><div class="chat-bubble right"><p>Ayo ayo ayooo <span>08:01</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Canidya Alifiana</p><p>John dan Saya sudah sampai dikantor <span>08:05</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Utari Purwanti</p><p>OTW Team <span>08:05</span></p></div></li>
-                                <li><div class="chat-bubble right"><p>Anggota Team semuanya sudah sampai Mas Rizky  <span>09:30</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Bagus, sebentar lagi saya kesana <span>09:40</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Terima Kasih untuk semuanya yang hadir <span>12:00</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Tolong di kejar deadline yang kita bicarakan tadi <span>12:01</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Masing-masing mempunyai tasknya masing masing yang harus diselesaikan <span>12:02</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Rizky Martha Aditya</p><p>Saya percaya dengan kemampuan kalian semua <span>12:04</span></p></div></li>
-                                <li><div class="chat-bubble right"><p>Baik Mas Rizky  <span>12:04</span></p></div></li>
-                                <li><div class="chat-bubble left"><p class="person">Utari Purwanti</p><p>Baik Mas Rizky  <span>12:07</span></p></div></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="chat-input">
-                    <form class="form-simple">
-                        <div class="form-group">
-                            <label for="chat-input" class="sr-only">Chat Input</label>
-                            <input type="text" class="form-control" id="chat-input" placeholder="Ketik sesuatu ..." autofocus>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-lg btn-default">
-                                <i class="fa fa-paper-plane"></i>
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            
-        </div>
-    </main>
-    
-    
-    
-        
-    
-    
+	<div class="row">
+		<div class="col-md-4 hidden-xs">
+			<div class="biz-card">
+				<a class="item">
+					<div class="cover">
+						<img src="/images/cloudinary/Covers/Catering.jpg" alt="Catering" class="img-responsive">
+					</div>
+					<div class="post">
+						<div class="photo">
+							<img src="/images/cloudinary/Logos/Catering.jpg" alt="Catering" class="img-responsive">
+						</div>
+						<div class="stats">
+							<ul class="list-inline">
+								<li><p><span class="fa fa-eye icon"></span> <b>124</b></p></li>
+								<li><p><span class="fa fa-user icon"></span> <b>56</b></p></li>
+								<li><p><span class="fa fa-star icon"></span> <b>17</b></p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="intro">
+						<h4>Jakarta Catering</h4>
+						<p>Jakarta Catering Service. Besar atau kecil, sederhana atau mewah. Berpengalaman di catering profesional sejak Tahun 2000.</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-md-4 visible-xs">
+			<div class="biz-chat-head">
+				<div class="row">
+					<div class="col-xs-12">
+						<a class="ion-ios-arrow-back back" onclick="window.history.back()"></a>
+						<h4><img src="/images/cloudinary/Logos/Catering.jpg" alt="Catering" class="img-responsive"> Jakarta Catering</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<div class="chat">
+				<div class="group-chat-bubbles">
+					<ul class="list-unstyled">
+						<li><div class="chat-bubble title"><p>Selasa, 13 September</p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Hai, Jakarta Catering <span>17:50</span></p></div></li>
+						<li><div class="chat-bubble right"><p>Saya mau pesen catering untuk acara pernikahan Saya <span>17:52</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Selamat, sore Mbak <span>18:00</span></p></div></li>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Kapan Mbak akan melakukan acaranya pernikahannya ? <span>18:02</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Hari Sabtu, Tanggal 20 Maret 2016 <span>18:02</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Baik, lalu Menu Cateringnya Mbak dapat memilih di daftar produk kami di Bisnis Page Kami  <span>18:04</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Ok, Saya sudah tentukan Menu Cateringnya <span>18:07</span></p></div></li>
+						<li><div class="chat-bubble right"><p>Saya pilih Paket Mewah <span>19:00</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Oke dengan Paket Mewah, dengan kisaran makanan untuk berapa Orang ? <span>19:07</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>300 - 350 Orang <span>19:08</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Baik dengan kisaran 300 - 350 Orang, dengan alamat Mbak ? <span>19:07</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Jl. Tiga Batu 1 No. 22, RT. 02, RW. 02, Kec. Menteng Kel. Menteng Jakarta Pusat, 10301 <span>19:08</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Oke berarti Paket Mewah untuk kisaran makanan unutk 300 - 350 Orang pada Hari Sabtu, Tanggal 20 Maret 2016, dengan alamat Jl. Tiga Batu 1 No. 22, RT. 02, RW. 02, Kec. Menteng Kel. Menteng Jakarta Pusat, 10301 <span>08:00</span></p></div></li>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Ada lagi yang kurang Mbak ? <span>08:01</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Mungkin itu aja dulu Mbak <span>08:05</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Baik Mbak, besok karyawan kami akan meminta pembayarannya di alamat yang Mbak berikan tersebut <span>08:05</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble right"><p>Baik, ditunggu  <span>09:30</span></p></div></li>
+						<br>
+						<li><div class="chat-bubble left"><p class="person">Jakarta Catering</p><p>Terima Kasih juga telah memesan Jasa Kami <span>09:40</span></p></div></li>
+					</ul>
+				</div>
+				<div class="chat-input">
+					<form class="form-simple">
+						<div class="form-group">
+							<label for="chat-input" class="sr-only">Chat Input</label>
+							<input type="text" class="form-control" id="chat-input" placeholder="Ketik sesuatu ..." autofocus>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-lg btn-default">
+								<i class="fa fa-paper-plane"></i>
+							</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
 </template>

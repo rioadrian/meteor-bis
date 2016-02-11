@@ -2,13 +2,19 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div class="biz-card">
-				<a href="/dashboardEdit" class="item">
+				<div class="item">
 					<div class="cover">
-						<img src="/cover-1.jpg" alt="Cover" class="img-responsive">
+						<img src="/images/cloudinary/Covers/Wedding.jpg" alt="Wedding" class="img-responsive">
+						<a href="/changeCover" class="leaf">
+							<span class="fa fa-camera icon"></span>
+						</a>
 					</div>
 					<div class="post">
 						<div class="photo">
-							<img src="/photo.jpg" alt="Photo" class="img-responsive">
+							<img src="/images/cloudinary/Logos/Wedding.jpg" alt="Wedding" class="img-responsive">
+							<a href="/changePhoto" class="leaf">
+								<span class="fa fa-camera icon"></span>
+							</a>
 						</div>
 						<div class="stats">
 							<ul class="list-inline">
@@ -19,23 +25,52 @@
 						</div>
 					</div>
 					<div class="intro">
-						<h4>Headshot Film Crew</h4>
-						<p>The Headshot Crew photographer community is a rockin place for portrait photographers to hone their craft in headshotland.</p>
+						<form>
+							<div class="form-group">
+								<label for="name" class="sr-only">Nama</label>
+								<textarea class="form-control auto-size h4" id="name" placeholder="Nama" rows="1">One Way Event Organizer</textarea>
+							</div>
+							<div class="form-group">
+								<label for="headline" class="sr-only">Headline</label>
+								<textarea class="form-control auto-size" id="headline" placeholder="Headline" rows="1">Tim kami siap untuk mendengarkan keinginan dan kebutuhan kapan saja, sepanjang seluruh proses sampai hari besar Anda.</textarea>
+							</div>
+						</form>
+						<!-- <h4>One Way Event Organizer</h4>
+						<p>Tim kami siap untuk mendengarkan keinginan dan kebutuhan kapan saja, sepanjang seluruh proses sampai hari besar Anda.</p> -->
 					</div>
-				</a>
+				</div>
 			</div>
 			<div class="biz-actions">
 				<div class="row">
 					<div class="col-xs-12">
-						<a class="btn btn-default btn-block" role="button">
-							<span class="sr-only">Simpan</span>
+						<a href="/dashboard" class="btn btn-default btn-block" role="button">
+							<span class="sr-only">Done</span>
 							<span class="fa fa-check icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="biz-actions">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="/dashboardEditEmpty" class="btn btn-default btn-block" role="button">
+							<span>Dashboard Edit Empty</span>
 						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-8">
+			<div class="biz-actions">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="/createProduct" class="btn btn-default btn-block" role="button">
+							<span>Add Product</span>
+							<span class="fa fa-plus icon sr-only"></span>
+						</a>
+					</div>
+				</div>
+			</div>
 			<div class="biz-products">
 				<div id="grid-gallery" class="grid-gallery">
 					<section class="grid-wrap">
@@ -44,57 +79,81 @@
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_411.jpg" alt="Images 01"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Letterpress asymmetrical</h3><p>Chillwave hoodie ea gentrify aute sriracha consequat.</p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_412.jpg" alt="Images 02"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Vice velit chia</h3><p>Laborum tattooed iPhone, Schlitz irure nulla Tonx retro 90's chia cardigan quis asymmetrical paleo. </p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_413.jpg" alt="Images 03"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Brunch semiotics</h3><p>Ex disrupt cray yr, butcher pour-over magna umami kitsch before they sold out commodo.</p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_414.jpg" alt="Images 04"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Chillwave nihil occupy</h3><p>In post-ironic gluten-free deserunt, PBR&amp;B non pork belly cupidatat polaroid. </p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_440.jpg" alt="Images 05"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Kale chips lomo biodiesel</h3><p>Pariatur food truck street art consequat sustainable, et kogi beard qui paleo. </p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_441.jpg" alt="Images 06"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Exercitation occaecat</h3><p>Street chillwave hoodie ea gentrify.</p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_442.jpg" alt="Images 07"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Selfies viral four</h3><p>Raw denim duis Tonx Shoreditch labore swag artisan High Life cred, stumptown Schlitz quinoa flexitarian mollit fanny pack.</p></figcaption>
 								</figure>
 							</li>
 							<li>
 								<figure>
 									<img src="https://res.cloudinary.com/gacloud/image/upload/Products/Random/product_443.jpg" alt="Images 08"/>
+									<a href="/editProduct" class="leaf">
+										<span class="fa fa-pencil icon"></span>
+									</a>
 									<figcaption><h3>Photo booth skateboard</h3><p>Vinyl squid ex High Life. Paleo Neutra nulla master cleanse, Helvetica et enim nesciunt esse.</p></figcaption>
 								</figure>
 							</li>
-							<li>
+							<!-- <li>
 								<figure>
 									<img src="/images/long.png" alt="Long"/>
 									<figcaption><h3>Photo booth skateboard</h3><p>Vinyl squid ex High Life. Paleo Neutra nulla master cleanse, Helvetica et enim nesciunt esse.</p></figcaption>
 								</figure>
-							</li>
+							</li> -->
 						</ul>
 					</section>
 					<section class="slideshow">
@@ -171,7 +230,7 @@
 									</figcaption>
 								</figure>
 							</li>
-							<li>
+							<!-- <li>
 								<figure>
 									<img src="/images/long.png" alt="Long"/>
 									<figcaption>
@@ -179,7 +238,7 @@
 										<p>Thundercats pour-over four loko skateboard Brooklyn, Etsy sriracha leggings dreamcatcher narwhal authentic 3 wolf moon synth Portland. Shabby chic photo booth Blue Bottle keffiyeh, McSweeney's roof party Carles.</p>
 									</figcaption>
 								</figure>
-							</li>
+							</li> -->
 						</ul>
 						<nav>
 							<span class="fa fa-chevron-left icon nav-prev"></span>

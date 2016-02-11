@@ -1,0 +1,62 @@
+<template name="dashboardEditEmpty">
+		<div class="row">
+		<div class="col-md-4">
+			<div class="biz-card">
+				<div class="item">
+					<div class="cover">
+						<img src="/images/cloudinary/Covers/Wedding.jpg" alt="Wedding" class="img-responsive">
+						<a href="/changeCover" class="leaf">
+							<span class="fa fa-camera icon"></span>
+						</a>
+					</div>
+					<div class="post">
+						<div class="photo">
+							<img src="/images/cloudinary/Logos/Wedding.jpg" alt="Wedding" class="img-responsive">
+							<a href="/changePhoto" class="leaf">
+								<span class="fa fa-camera icon"></span>
+							</a>
+						</div>
+						<div class="stats">
+							<ul class="list-inline">
+								<li><p><span class="fa fa-eye icon"></span> <b>124</b></p></li>
+								<li><p><span class="fa fa-user icon"></span> <b>56</b></p></li>
+								<li><p><span class="fa fa-star icon"></span> <b>17</b></p></li>
+							</ul>
+						</div>
+					</div>
+					<div class="intro">
+						<form>
+							<div class="form-group">
+								<label for="name" class="sr-only">Nama</label>
+								<textarea class="form-control auto-size h4" id="name" placeholder="Nama" rows="1">One Way Event Organizer</textarea>
+							</div>
+							<div class="form-group">
+								<label for="headline" class="sr-only">Headline</label>
+								<textarea class="form-control auto-size" id="headline" placeholder="Headline" rows="1">Tim kami siap untuk mendengarkan keinginan dan kebutuhan kapan saja, sepanjang seluruh proses sampai hari besar Anda.</textarea>
+							</div>
+						</form>
+						<!-- <h4>One Way Event Organizer</h4>
+						<p>Tim kami siap untuk mendengarkan keinginan dan kebutuhan kapan saja, sepanjang seluruh proses sampai hari besar Anda.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="biz-actions">
+				<div class="row">
+					<div class="col-xs-12">
+						<a href="/dashboardEmpty" class="btn btn-default btn-block" role="button">
+							<span class="sr-only">Done</span>
+							<span class="fa fa-check icon"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-8">
+			<center>
+				<span class="ion-images empty-state-icon"></span>
+				<h3 class="text-thin">There's no image yet in your business</h3>
+				<h4 class="text-thin">Start upload your image <a href="createProduct">here</a></h4>
+			</center>
+		</div>
+	</div>
+</template>

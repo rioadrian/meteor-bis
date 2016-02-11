@@ -16,5 +16,9 @@
 			{{/if}}
 		{{/if}}
 	</div>
-    {{>footer}}
+		{{#if authenticated}}
+			{{>footer}}
+		{{else}}
+			{{>footer2}}
+		{{/if}}
 </template>

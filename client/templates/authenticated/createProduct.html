@@ -1,0 +1,34 @@
+<template name="createProduct">
+  <div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+      <form class="product-form">
+        <figure>
+          <div>
+            <img src="/images/default-1.png" alt="Picture" class="img-change-photo">
+            <a class="leaf btn-change-photo">
+              <span class="fa fa-camera icon"></span>
+            </a>
+            <input type="file" class="input-change-photo">
+          </div>
+          <figcaption>
+            <div class="form-group">
+              <label for="name" class="sr-only">Nama</label>
+              <textarea class="form-control auto-size h3" id="name" rows="1" placeholder="Nama"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="description" class="sr-only">Deskripsi</label>
+              <textarea class="form-control auto-size" id="description" rows="1" placeholder="Deskripsi"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="price" class="sr-only">Harga </label>
+              <input type="text" class="form-control" id="price" placeholder="Harga">
+            </div>
+          </figcaption>
+        </figure>
+        <button type="submit" class="btn btn-default btn-block">Submit</button>
+      </form>
+    </div>
+    <div class="col-sm-4"></div>
+  </div>
+</template>
